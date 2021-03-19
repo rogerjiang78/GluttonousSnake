@@ -14,7 +14,6 @@ export default class GameControl {
     this.snake = new Snake();
     this.food = new Food();
     this.scorePanel = new ScorePanel();
-
     this.init();
   }
 
@@ -25,7 +24,6 @@ export default class GameControl {
 
   keydownHandler(event: KeyboardEvent) {
     // console.log(event.key);
-
     this.direction = event.key;
   }
 
